@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427920105722",
+    "firebase_url": "https://summoning-c9d86.firebaseio.com",
+    "project_id": "summoning-c9d86",
+    "storage_bucket": "summoning-c9d86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427920105722:android:e7e4fb473208d695316943",
+        "android_client_info": {
+          "package_name": "com.example.summoning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427920105722-o0of6ulastc0uga6jt7cpd09rcaesub4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl5ehN8Bs3hgYGCwU15DA3iXjNo0lyvAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427920105722-o0of6ulastc0uga6jt7cpd09rcaesub4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

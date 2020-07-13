@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:summoning/screen/splashscreen.dart';
@@ -25,9 +26,21 @@ class MyApp extends StatelessWidget {
 }
 
 
-class MaterialAppTheme extends StatelessWidget {
+class MaterialAppTheme extends StatefulWidget {
+  @override
+  _MaterialAppThemeState createState() => _MaterialAppThemeState();
+}
+
+class _MaterialAppThemeState extends State<MaterialAppTheme>  {
+
+
+
+
   @override
   Widget build(BuildContext context) {
+
+
+
 
 final brightness = Provider.of<ThemeChanger>(context);
 

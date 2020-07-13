@@ -16,7 +16,7 @@ String text = '''Baki Hanma (範馬 刃牙, Hanma Baki) is the main character an
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("About"),
+        title: Text("About", style: TextStyle(fontSize:25),),
       ),
       body: SingleChildScrollView(
               child: Column(

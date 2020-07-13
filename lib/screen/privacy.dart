@@ -16,7 +16,7 @@ Regal, egotistical, and full of pride, Vegeta was once a ruthless, cold-blooded 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Privacy"),
+        title: Text("Privacy", style: TextStyle(fontSize:25),),
       ),
       body: SingleChildScrollView(
               child: Column(
